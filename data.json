@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T08:40-07:00",
+ "generatedAt": "2026-10-17T08:45-07:00",
  "asOf": "2026-10-17",
  "stages": [
   "Not Signed",
@@ -226,8 +226,8 @@
    "stage_index": 0,
    "on_hold": false,
    "flag": "R",
-   "reason": "set to start 10/18 with no signed contract, Production Acceptance | 6 task(s) 2+ BD late: Arizona 811 ticket submitted (Randall verifies marks on site) (Tym, 2 BD late); Crew plan (lead, helpers, duration) (Randall, 4 BD late) +4 more | 4 task(s) 1 BD late: Order standard materials (Tym); Schedule delivery (date, time, drop spot) (Tym) | 17 open blocker(s) within 48h of 10/18: Send R1 via Adobe Sign and get it signed; CompanyCam project complete (photos, video, sketch, measurements) +15 more",
-   "next_milestone": "Signed: Send R1 via Adobe Sign and get it signed (due 10/17)",
+   "reason": "Contract out for signature, awaiting customer",
+   "next_milestone": "Signed: Customer signs R1 in Adobe Sign (sent 10/17) (due 10/17)",
    "owner": "Joshua",
    "start": "10/18",
    "pour": "",
@@ -264,7 +264,7 @@
     }
    ],
    "tasks_open": 48,
-   "tasks_done": 1
+   "tasks_done": 2
   },
   {
    "job": "C-25",
