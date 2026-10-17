@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T08:35-07:00",
+ "generatedAt": "2026-10-17T08:40-07:00",
  "asOf": "2026-10-17",
  "stages": [
   "Not Signed",
@@ -12,10 +12,10 @@
   "Closed"
  ],
  "summary": {
-  "G": 1,
+  "G": 0,
   "Y": 1,
-  "R": 5,
-  "H": 1
+  "R": 6,
+  "H": 0
  },
  "jobs": [
   {
@@ -267,6 +267,25 @@
    "tasks_done": 1
   },
   {
+   "job": "C-25",
+   "first_name": "Terry",
+   "project": "Project Paseo",
+   "stage": "Not Signed",
+   "stage_index": 0,
+   "on_hold": false,
+   "flag": "R",
+   "reason": "no signed contract on file (red until signed)",
+   "next_milestone": "Signed: Resolve amount: proposal vs J&P mismatch; approve revised proposal (due 10/23)",
+   "owner": "Nehemiah",
+   "start": "",
+   "pour": "",
+   "overdue_count": 0,
+   "overdue_owners": {},
+   "overdue_top": [],
+   "tasks_open": 3,
+   "tasks_done": 0
+  },
+  {
    "job": "C-28",
    "first_name": "Lisa",
    "project": "Project 206",
@@ -292,45 +311,7 @@
    ],
    "tasks_open": 46,
    "tasks_done": 0
-  },
-  {
-   "job": "C-25",
-   "first_name": "Terry",
-   "project": "Project Paseo",
-   "stage": "Not Signed",
-   "stage_index": 0,
-   "on_hold": false,
-   "flag": "G",
-   "reason": "On track: no late tasks",
-   "next_milestone": "Signed: Resolve amount: proposal vs J&P mismatch; approve revised proposal (due 10/23)",
-   "owner": "Nehemiah",
-   "start": "",
-   "pour": "",
-   "overdue_count": 0,
-   "overdue_owners": {},
-   "overdue_top": [],
-   "tasks_open": 3,
-   "tasks_done": 0
-  },
-  {
-   "job": "C-26",
-   "first_name": "Carlos",
-   "project": "Project Parque",
-   "stage": "On Hold",
-   "stage_index": 0,
-   "on_hold": true,
-   "flag": "H",
-   "reason": "On Hold in J&P (Pending HOA): tasks paused, no late-task flags",
-   "next_milestone": "Resume when J&P status leaves On Hold",
-   "owner": "Joshua",
-   "start": "",
-   "pour": "",
-   "overdue_count": 0,
-   "overdue_owners": {},
-   "overdue_top": [],
-   "tasks_open": 2,
-   "tasks_done": 0
   }
  ],
- "rules": "Red: start date set without signed contract, deposit or Production Acceptance; or a task 2+ business days late; or an open blocker within 48h of a start/pour. Yellow: a task 1 business day late. Green: otherwise. Gray (On Hold): job is On Hold in the Jobs & Profitability sheet; its tasks are paused and not flagged. Jobs marked Complete there drop off. Business days = Mon-Fri."
+ "rules": "Red: no signed contract on file yet; or start date set without signed contract, deposit or Production Acceptance; or a task 2+ business days late; or an open blocker within 48h of a start/pour. Yellow: a task 1 business day late. Green: otherwise. Gray (On Hold): job is On Hold in the Jobs & Profitability sheet; its tasks are paused and not flagged. Jobs marked Complete there drop off. Business days = Mon-Fri."
 }
