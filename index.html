@@ -1,0 +1,60 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Cornerstone · Production Dashboard</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#4f46e5;--red:#dc2626;--grn:#16a34a;--amb:#d97706}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+header{background:#0f172a;color:#fff;padding:18px 20px}header h1{margin:0;font-size:20px}header p{margin:4px 0 0;color:#cbd5e1;font-size:13px}
+nav{display:flex;gap:4px;overflow-x:auto;background:#fff;border-bottom:1px solid var(--line);padding:0 12px;position:sticky;top:0;z-index:5}
+nav a{padding:12px 14px;color:var(--mut);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;font-weight:600;cursor:pointer}
+nav a.on{color:var(--acc);border-color:var(--acc)}main{max-width:1100px;margin:auto;padding:18px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.cards{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(330px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px}
+.job{border-left:6px solid var(--grn)}.job.R{border-left-color:var(--red)}.job.Y{border-left-color:var(--amb)}
+.kpi .v{font-size:26px;font-weight:700}.kpi .l{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.kpi.R .v{color:var(--red)}.kpi.Y .v{color:var(--amb)}.kpi.G .v{color:var(--grn)}
+h2{font-size:16px;margin:0 0 4px}.sub{color:var(--mut);font-size:13px;margin-bottom:8px}
+.tag{display:inline-block;padding:2px 8px;border-radius:99px;font-size:12px;font-weight:700;background:#eef2ff;color:var(--acc)}
+.tag.R{background:#fee2e2;color:var(--red)}.tag.Y{background:#fef3c7;color:var(--amb)}.tag.G{background:#dcfce7;color:var(--grn)}
+.prog{display:flex;gap:3px;margin:10px 0 4px}.prog i{flex:1;height:8px;border-radius:4px;background:#e2e8f0}.prog i.f{background:var(--acc)}
+.pl{display:flex;justify-content:space-between;font-size:11px;color:var(--mut)}
+.row{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.lbl{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.04em;margin-top:10px}
+.reason{font-size:13px;margin-top:6px}.reason li{margin:2px 0}
+.chip{display:inline-block;background:#f1f5f9;border-radius:6px;padding:1px 7px;margin:2px 4px 0 0;font-size:12px}
+.mut{color:var(--mut)}.empty{text-align:center;padding:30px;color:var(--mut)}
+details{margin-top:6px;font-size:13px}summary{cursor:pointer;color:var(--acc)}
+@media(max-width:600px){.cards{grid-template-columns:1fr}.kpi .v{font-size:21px}}
+</style></head><body>
+<header><h1>Cornerstone Build Co. · Production Dashboard</h1><p id="gen">Loading…</p></header>
+<nav id="nav"></nav><main><div class="grid" id="kpi"></div><div class="cards" id="cards"></div><p class="mut" id="rules" style="font-size:12px"></p></main>
+<script>
+const $=s=>document.querySelector(s),e=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const FL={R:'Red',Y:'Yellow',G:'Green'};
+const fd=d=>d?new Date(d).toLocaleString('en-US',{timeZone:'America/Phoenix',weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' Phoenix time':'—';
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(D=>{
+ $('#gen').textContent='Last updated '+fd(D.generatedAt)+' · job numbers and first names only';
+ const S=D.summary,tot=D.jobs.length;
+ $('#kpi').innerHTML=[['Active jobs',tot,''],['Red',S.R,'R'],['Yellow',S.Y,'Y'],['Green',S.G,'G'],['Overdue tasks',D.jobs.reduce((a,j)=>a+j.overdue_count,0),'']]
+  .map(([l,v,c])=>`<div class="card kpi ${c}"><div class="l">${l}</div><div class="v">${v}</div></div>`).join('');
+ const tabs=[['all','All ('+tot+')'],['R','Red ('+S.R+')'],['Y','Yellow ('+S.Y+')'],['G','Green ('+S.G+')']];
+ $('#nav').innerHTML=tabs.map(([k,l])=>`<a data-k="${k}">${l}</a>`).join('');
+ const st=D.stages.slice(1);
+ const card=j=>`<div class="card job ${j.flag}">
+  <div class="row"><div><h2>${e(j.job)} · ${e(j.first_name)}</h2><div class="sub">${e(j.project)}${j.start?' · start '+e(j.start):''}${j.pour?' · pour '+e(j.pour):''}</div></div>
+  <span class="tag ${j.flag}">${FL[j.flag]}</span></div>
+  <div class="prog">${st.map((s,i)=>`<i class="${i<j.stage_index?'f':''}" title="${e(s)}"></i>`).join('')}</div>
+  <div class="pl"><span>Stage: <b>${e(j.stage)}</b></span><span>${j.stage_index}/${st.length} gates</span></div>
+  <div class="lbl">Why</div><ul class="reason">${j.reason.split(' | ').map(r=>`<li>${e(r)}</li>`).join('')}</ul>
+  <div class="lbl">Next milestone</div><div style="font-size:14px">${e(j.next_milestone)}${j.owner?` <span class="chip">${e(j.owner)}</span>`:''}</div>
+  <div class="lbl">Overdue tasks: ${j.overdue_count}</div>
+  <div>${Object.entries(j.overdue_owners).sort((a,b)=>b[1]-a[1]).map(([o,n])=>`<span class="chip">${e(o)} · ${n}</span>`).join('')||'<span class="mut" style="font-size:13px">None</span>'}</div>
+  ${j.overdue_top.length?`<details><summary>Most urgent overdue</summary><ul>${j.overdue_top.map(t=>`<li>${e(t.task)} <span class="mut">(${e(t.owner)}, ${t.bd_late} BD late)</span></li>`).join('')}</ul></details>`:''}
+  <div class="mut" style="font-size:12px;margin-top:8px">${j.tasks_done} done · ${j.tasks_open} open</div></div>`;
+ const show=k=>{document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.k==k));
+  const js=D.jobs.filter(j=>k=='all'||j.flag==k);$('#cards').innerHTML=js.map(card).join('')||'<div class="card empty">No jobs.</div>';location.hash=k};
+ document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>show(a.dataset.k));
+ show((location.hash.slice(1)||'all'));
+ $('#rules').textContent='Flag rules: '+D.rules+' Data as of '+D.asOf+'.';
+}).catch(err=>{$('#gen').textContent='Could not load data.json: '+err});
+</script></body></html>

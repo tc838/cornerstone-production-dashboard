@@ -1,0 +1,395 @@
+{
+ "generatedAt": "2026-10-17T06:39-07:00",
+ "asOf": "2026-10-17",
+ "stages": [
+  "Not Signed",
+  "Signed",
+  "Handoff Released",
+  "Production Accepted",
+  "48h Ready",
+  "Approved to Pour",
+  "Field Complete",
+  "Closed"
+ ],
+ "summary": {
+  "G": 3,
+  "Y": 1,
+  "R": 6
+ },
+ "jobs": [
+  {
+   "job": "C-0",
+   "first_name": "Danny & Yanniv",
+   "project": "Project Orpine",
+   "stage": "Signed",
+   "stage_index": 1,
+   "flag": "R",
+   "reason": "started 7/15 with no deposit, Production Acceptance | 25 task(s) 2+ BD late: Signed contract filed to Drive (PM Bot, 72 BD late); CompanyCam project complete (photos, video, sketch, measurements) (Joshua / Nehemiah, 71 BD late) +23 more",
+   "next_milestone": "Handoff Released: Signed contract filed to Drive (due 7/8)",
+   "owner": "PM Bot",
+   "start": "7/15",
+   "pour": "",
+   "overdue_count": 25,
+   "overdue_owners": {
+    "PM Bot": 1,
+    "Joshua": 3,
+    "Nehemiah": 3,
+    "Tym": 16,
+    "Randall": 9
+   },
+   "overdue_top": [
+    {
+     "task": "Signed contract filed to Drive",
+     "owner": "PM Bot",
+     "bd_late": 72
+    },
+    {
+     "task": "CompanyCam project complete (photos, video, sketch, measurements)",
+     "owner": "Joshua / Nehemiah",
+     "bd_late": 71
+    },
+    {
+     "task": "Permit / HOA status identified",
+     "owner": "Joshua / Nehemiah",
+     "bd_late": 71
+    },
+    {
+     "task": "Selections confirmed (finish, color, stamp, product)",
+     "owner": "Joshua / Nehemiah",
+     "bd_late": 70
+    },
+    {
+     "task": "Deposit received",
+     "owner": "Tym",
+     "bd_late": 69
+    }
+   ],
+   "tasks_open": 44,
+   "tasks_done": 0
+  },
+  {
+   "job": "C-23",
+   "first_name": "Nancy",
+   "project": "Project Ahwatukee",
+   "stage": "Not Signed",
+   "stage_index": 0,
+   "flag": "R",
+   "reason": "started 10/7 with no signed contract, deposit, Production Acceptance | 24 task(s) 2+ BD late: Send contract via Adobe Sign and get it signed (work already underway) (Nehemiah, 8 BD late); CompanyCam project complete (photos, video, sketch, measurements) (Nehemiah, 8 BD late) +22 more",
+   "next_milestone": "Signed: Send contract via Adobe Sign and get it signed (work already underway) (due 10/6)",
+   "owner": "Nehemiah",
+   "start": "10/7",
+   "pour": "",
+   "overdue_count": 24,
+   "overdue_owners": {
+    "Nehemiah": 3,
+    "Tym": 15,
+    "PM Bot": 1,
+    "Randall": 9
+   },
+   "overdue_top": [
+    {
+     "task": "Send contract via Adobe Sign and get it signed (work already underway)",
+     "owner": "Nehemiah",
+     "bd_late": 8
+    },
+    {
+     "task": "CompanyCam project complete (photos, video, sketch, measurements)",
+     "owner": "Nehemiah",
+     "bd_late": 8
+    },
+    {
+     "task": "Selections confirmed (finish, color, stamp, product)",
+     "owner": "Nehemiah",
+     "bd_late": 8
+    },
+    {
+     "task": "Deposit received",
+     "owner": "Tym",
+     "bd_late": 8
+    },
+    {
+     "task": "Signed contract filed to Drive",
+     "owner": "PM Bot",
+     "bd_late": 8
+    }
+   ],
+   "tasks_open": 43,
+   "tasks_done": 2
+  },
+  {
+   "job": "C-19",
+   "first_name": "Robert",
+   "project": "Project Rowen",
+   "stage": "Signed",
+   "stage_index": 1,
+   "flag": "R",
+   "reason": "12 task(s) 2+ BD late: Signed contract filed to Drive (PM Bot, 30 BD late); CompanyCam project complete (photos, video, sketch, measurements) (Nehemiah, 29 BD late) +10 more",
+   "next_milestone": "Handoff Released: Signed contract filed to Drive (due 9/5)",
+   "owner": "PM Bot",
+   "start": "",
+   "pour": "",
+   "overdue_count": 12,
+   "overdue_owners": {
+    "PM Bot": 1,
+    "Nehemiah": 2,
+    "Tym": 8,
+    "Randall": 2
+   },
+   "overdue_top": [
+    {
+     "task": "Signed contract filed to Drive",
+     "owner": "PM Bot",
+     "bd_late": 30
+    },
+    {
+     "task": "CompanyCam project complete (photos, video, sketch, measurements)",
+     "owner": "Nehemiah",
+     "bd_late": 29
+    },
+    {
+     "task": "Selections confirmed (finish, color, stamp, product)",
+     "owner": "Nehemiah",
+     "bd_late": 28
+    },
+    {
+     "task": "Deposit received",
+     "owner": "Tym",
+     "bd_late": 27
+    },
+    {
+     "task": "Office readiness review",
+     "owner": "Tym",
+     "bd_late": 27
+    }
+   ],
+   "tasks_open": 46,
+   "tasks_done": 1
+  },
+  {
+   "job": "C-21",
+   "first_name": "James",
+   "project": "Project Mars",
+   "stage": "Signed",
+   "stage_index": 1,
+   "flag": "R",
+   "reason": "11 task(s) 2+ BD late: Signed contract filed to Drive (PM Bot, 27 BD late); CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 26 BD late) +9 more",
+   "next_milestone": "Handoff Released: Signed contract filed to Drive (due 9/9)",
+   "owner": "PM Bot",
+   "start": "",
+   "pour": "",
+   "overdue_count": 11,
+   "overdue_owners": {
+    "PM Bot": 1,
+    "Joshua": 3,
+    "Tym": 6,
+    "Randall": 2
+   },
+   "overdue_top": [
+    {
+     "task": "Signed contract filed to Drive",
+     "owner": "PM Bot",
+     "bd_late": 27
+    },
+    {
+     "task": "CompanyCam project complete (photos, video, sketch, measurements)",
+     "owner": "Joshua",
+     "bd_late": 26
+    },
+    {
+     "task": "Permit / HOA status identified",
+     "owner": "Joshua",
+     "bd_late": 26
+    },
+    {
+     "task": "Selections confirmed (finish, color, stamp, product)",
+     "owner": "Joshua",
+     "bd_late": 25
+    },
+    {
+     "task": "Office readiness review",
+     "owner": "Tym",
+     "bd_late": 24
+    }
+   ],
+   "tasks_open": 44,
+   "tasks_done": 2
+  },
+  {
+   "job": "C-20",
+   "first_name": "Barbara",
+   "project": "Project Dadivoso",
+   "stage": "Signed",
+   "stage_index": 1,
+   "flag": "R",
+   "reason": "10 task(s) 2+ BD late: Signed contract filed to Drive (PM Bot, 25 BD late); CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 24 BD late) +8 more",
+   "next_milestone": "Handoff Released: Signed contract filed to Drive (due 9/12)",
+   "owner": "PM Bot",
+   "start": "",
+   "pour": "",
+   "overdue_count": 10,
+   "overdue_owners": {
+    "PM Bot": 1,
+    "Joshua": 2,
+    "Tym": 6,
+    "Randall": 2
+   },
+   "overdue_top": [
+    {
+     "task": "Signed contract filed to Drive",
+     "owner": "PM Bot",
+     "bd_late": 25
+    },
+    {
+     "task": "CompanyCam project complete (photos, video, sketch, measurements)",
+     "owner": "Joshua",
+     "bd_late": 24
+    },
+    {
+     "task": "Selections confirmed (finish, color, stamp, product)",
+     "owner": "Joshua",
+     "bd_late": 23
+    },
+    {
+     "task": "Office readiness review",
+     "owner": "Tym",
+     "bd_late": 22
+    },
+    {
+     "task": "Field readiness review / site visit",
+     "owner": "Randall",
+     "bd_late": 21
+    }
+   ],
+   "tasks_open": 43,
+   "tasks_done": 2
+  },
+  {
+   "job": "C-27",
+   "first_name": "Tim",
+   "project": "Project 13th",
+   "stage": "Not Signed",
+   "stage_index": 0,
+   "flag": "R",
+   "reason": "set to start 10/18 with no signed contract, Production Acceptance | 6 task(s) 2+ BD late: Arizona 811 ticket submitted (Randall verifies marks on site) (Tym, 2 BD late); Crew plan (lead, helpers, duration) (Randall, 4 BD late) +4 more | 4 task(s) 1 BD late: Order standard materials (Tym); Schedule delivery (date, time, drop spot) (Tym) | 17 open blocker(s) within 48h of 10/18: Send R1 via Adobe Sign and get it signed; CompanyCam project complete (photos, video, sketch, measurements) +15 more",
+   "next_milestone": "Signed: Send R1 via Adobe Sign and get it signed (due 10/17)",
+   "owner": "Joshua",
+   "start": "10/18",
+   "pour": "",
+   "overdue_count": 10,
+   "overdue_owners": {
+    "Tym": 8,
+    "Randall": 5
+   },
+   "overdue_top": [
+    {
+     "task": "Arizona 811 ticket submitted (Randall verifies marks on site)",
+     "owner": "Tym",
+     "bd_late": 2
+    },
+    {
+     "task": "Order standard materials",
+     "owner": "Tym",
+     "bd_late": 1
+    },
+    {
+     "task": "Schedule delivery (date, time, drop spot)",
+     "owner": "Tym",
+     "bd_late": 1
+    },
+    {
+     "task": "48-hour readiness check signed off (Tym + Randall)",
+     "owner": "Tym + Randall",
+     "bd_late": 1
+    },
+    {
+     "task": "Crew plan (lead, helpers, duration)",
+     "owner": "Randall",
+     "bd_late": 4
+    }
+   ],
+   "tasks_open": 48,
+   "tasks_done": 1
+  },
+  {
+   "job": "TBD",
+   "first_name": "Lisa",
+   "project": "Project 206",
+   "stage": "Signed",
+   "stage_index": 1,
+   "flag": "Y",
+   "reason": "1 task(s) 1 BD late: Signed contract filed to Drive (PM Bot)",
+   "next_milestone": "Handoff Released: Signed contract filed to Drive (due 10/15)",
+   "owner": "PM Bot",
+   "start": "",
+   "pour": "",
+   "overdue_count": 1,
+   "overdue_owners": {
+    "PM Bot": 1
+   },
+   "overdue_top": [
+    {
+     "task": "Signed contract filed to Drive",
+     "owner": "PM Bot",
+     "bd_late": 1
+    }
+   ],
+   "tasks_open": 46,
+   "tasks_done": 0
+  },
+  {
+   "job": "C-22",
+   "first_name": "Scott",
+   "project": "Project 34th",
+   "stage": "Not Signed",
+   "stage_index": 0,
+   "flag": "G",
+   "reason": "On track: no late tasks",
+   "next_milestone": "Signed: Locate or build the proposal (J&P placeholder, Pending Design) (due 10/30)",
+   "owner": "Nehemiah",
+   "start": "",
+   "pour": "",
+   "overdue_count": 0,
+   "overdue_owners": {},
+   "overdue_top": [],
+   "tasks_open": 1,
+   "tasks_done": 0
+  },
+  {
+   "job": "C-25",
+   "first_name": "Terry",
+   "project": "Project Paseo",
+   "stage": "Not Signed",
+   "stage_index": 0,
+   "flag": "G",
+   "reason": "On track: no late tasks",
+   "next_milestone": "Signed: Resolve amount: proposal vs J&P mismatch; approve revised proposal (due 10/23)",
+   "owner": "Nehemiah",
+   "start": "",
+   "pour": "",
+   "overdue_count": 0,
+   "overdue_owners": {},
+   "overdue_top": [],
+   "tasks_open": 3,
+   "tasks_done": 0
+  },
+  {
+   "job": "C-26",
+   "first_name": "Carlos",
+   "project": "Project Parque",
+   "stage": "Not Signed",
+   "stage_index": 0,
+   "flag": "G",
+   "reason": "On track: no late tasks",
+   "next_milestone": "Signed: Follow up on unsigned agreement (sent 9/18; validity ends ~10/18) (due 10/23)",
+   "owner": "Joshua",
+   "start": "",
+   "pour": "",
+   "overdue_count": 0,
+   "overdue_owners": {},
+   "overdue_top": [],
+   "tasks_open": 2,
+   "tasks_done": 0
+  }
+ ],
+ "rules": "Red: start date set without signed contract, deposit or Production Acceptance; or a task 2+ business days late; or an open blocker within 48h of a start/pour. Yellow: a task 1 business day late. Green: otherwise. Business days = Mon-Fri."
+}
