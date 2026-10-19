@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T07:18-07:00",
+ "generatedAt": "2026-10-19T12:17-07:00",
  "asOf": "2026-10-19",
  "stages": [
   "Not Signed",
@@ -75,16 +75,16 @@
    "stage_index": 0,
    "on_hold": false,
    "flag": "R",
-   "reason": "started 10/7 with no signed contract, deposit, Production Acceptance | 22 task(s) 2+ BD late: Send contract via Adobe Sign and get it signed (work already underway) (Nehemiah, 11 BD late); CompanyCam project complete (photos, video, sketch, measurements) (Nehemiah, 11 BD late) +20 more",
+   "reason": "started 10/7 with no signed contract, Production Acceptance | 20 task(s) 2+ BD late: Send contract via Adobe Sign and get it signed (work already underway) (Nehemiah, 11 BD late); CompanyCam project complete (photos, video, sketch, measurements) (Nehemiah, 11 BD late) +18 more",
    "next_milestone": "Signed: Send contract via Adobe Sign and get it signed (work already underway) (due 10/6)",
    "owner": "Nehemiah",
    "start": "10/7",
    "pour": "",
-   "overdue_count": 22,
+   "overdue_count": 20,
    "overdue_owners": {
     "Nehemiah": 3,
-    "Tym": 13,
     "PM Bot": 1,
+    "Tym": 11,
     "Randall": 9
    },
    "overdue_top": [
@@ -104,18 +104,18 @@
      "bd_late": 11
     },
     {
-     "task": "Deposit received",
-     "owner": "Tym",
-     "bd_late": 11
-    },
-    {
      "task": "Signed contract filed to Drive",
      "owner": "PM Bot",
      "bd_late": 11
+    },
+    {
+     "task": "Office readiness review",
+     "owner": "Tym",
+     "bd_late": 11
     }
    ],
-   "tasks_open": 41,
-   "tasks_done": 4
+   "tasks_open": 39,
+   "tasks_done": 6
   },
   {
    "job": "C-19",
@@ -212,8 +212,8 @@
      "bd_late": 29
     }
    ],
-   "tasks_open": 43,
-   "tasks_done": 3
+   "tasks_open": 41,
+   "tasks_done": 5
   },
   {
    "job": "C-20",
@@ -261,8 +261,8 @@
      "bd_late": 27
     }
    ],
-   "tasks_open": 42,
-   "tasks_done": 3
+   "tasks_open": 41,
+   "tasks_done": 4
   },
   {
    "job": "C-28",
@@ -294,8 +294,8 @@
      "bd_late": 2
     }
    ],
-   "tasks_open": 44,
-   "tasks_done": 2
+   "tasks_open": 43,
+   "tasks_done": 3
   },
   {
    "job": "C-25",
