@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T06:41-07:00",
+ "generatedAt": "2026-10-20T12:10-07:00",
  "asOf": "2026-10-20",
  "stages": [
   "Not Signed",
@@ -299,8 +299,8 @@
      "bd_late": 1
     }
    ],
-   "tasks_open": 43,
-   "tasks_done": 3
+   "tasks_open": 42,
+   "tasks_done": 4
   },
   {
    "job": "C-25",
