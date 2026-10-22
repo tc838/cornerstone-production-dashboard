@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T12:14-07:00",
+ "generatedAt": "2026-10-22T16:43-07:00",
  "asOf": "2026-10-22",
  "stages": [
   "Not Signed",
@@ -76,16 +76,16 @@
    "stage_index": 1,
    "on_hold": false,
    "flag": "R",
-   "reason": "started 10/20 with no Production Acceptance | 6 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 3 BD late); Permit / HOA status identified (Joshua, 3 BD late) +4 more | 7 task(s) 1 BD late: Office readiness review (Tym); Field readiness review / site visit (Randall)",
+   "reason": "started 10/20 with no Production Acceptance | 6 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 3 BD late); Permit / HOA status identified (Joshua, 3 BD late) +4 more | 6 task(s) 1 BD late: Office readiness review (Tym); Field readiness review / site visit (Randall)",
    "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/19)",
    "owner": "Joshua",
    "start": "10/20",
    "pour": "",
-   "overdue_count": 13,
+   "overdue_count": 12,
    "overdue_owners": {
     "Joshua": 4,
     "Randall": 5,
-    "Tym": 6
+    "Tym": 5
    },
    "overdue_top": [
     {
@@ -114,8 +114,8 @@
      "bd_late": 4
     }
    ],
-   "tasks_open": 43,
-   "tasks_done": 10
+   "tasks_open": 41,
+   "tasks_done": 12
   },
   {
    "job": "C-19",
