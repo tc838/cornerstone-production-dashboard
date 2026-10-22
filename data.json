@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T06:45-07:00",
+ "generatedAt": "2026-10-22T12:14-07:00",
  "asOf": "2026-10-22",
  "stages": [
   "Not Signed",
@@ -14,8 +14,8 @@
  "summary": {
   "G": 0,
   "Y": 0,
-  "R": 7,
-  "H": 0
+  "R": 6,
+  "H": 1
  },
  "jobs": [
   {
@@ -167,57 +167,6 @@
    "tasks_done": 3
   },
   {
-   "job": "C-28",
-   "first_name": "Lisa",
-   "project": "Project 206",
-   "stage": "Signed",
-   "stage_index": 1,
-   "on_hold": false,
-   "flag": "R",
-   "reason": "set to start 10/27 with no Production Acceptance | 4 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua / Nehemiah, 5 BD late); Permit / HOA status identified (Joshua / Nehemiah, 5 BD late) +2 more | 7 task(s) 1 BD late: Field readiness review / site visit (Randall); Production Accepted decision (Tym + Randall) (Tym + Randall)",
-   "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/16)",
-   "owner": "Joshua / Nehemiah",
-   "start": "10/27",
-   "pour": "",
-   "overdue_count": 11,
-   "overdue_owners": {
-    "Joshua": 3,
-    "Nehemiah": 3,
-    "Tym": 4,
-    "Randall": 4,
-    "PM Bot": 1
-   },
-   "overdue_top": [
-    {
-     "task": "CompanyCam project complete (photos, video, sketch, measurements)",
-     "owner": "Joshua / Nehemiah",
-     "bd_late": 5
-    },
-    {
-     "task": "Permit / HOA status identified",
-     "owner": "Joshua / Nehemiah",
-     "bd_late": 5
-    },
-    {
-     "task": "Selections confirmed (finish, color, stamp, product)",
-     "owner": "Joshua / Nehemiah",
-     "bd_late": 3
-    },
-    {
-     "task": "Office readiness review",
-     "owner": "Tym",
-     "bd_late": 2
-    },
-    {
-     "task": "Field readiness review / site visit",
-     "owner": "Randall",
-     "bd_late": 1
-    }
-   ],
-   "tasks_open": 42,
-   "tasks_done": 4
-  },
-  {
    "job": "C-21",
    "first_name": "James",
    "project": "Project Mars",
@@ -261,6 +210,56 @@
      "task": "Field readiness review / site visit",
      "owner": "Randall",
      "bd_late": 32
+    }
+   ],
+   "tasks_open": 41,
+   "tasks_done": 5
+  },
+  {
+   "job": "C-28",
+   "first_name": "Lisa",
+   "project": "Project 206",
+   "stage": "Signed",
+   "stage_index": 1,
+   "on_hold": false,
+   "flag": "R",
+   "reason": "set to start 10/27 with no Production Acceptance | 4 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua / Nehemiah, 5 BD late); Permit / HOA status identified (Joshua / Nehemiah, 5 BD late) +2 more | 6 task(s) 1 BD late: Field readiness review / site visit (Randall); Production Accepted decision (Tym + Randall) (Tym + Randall)",
+   "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/16)",
+   "owner": "Joshua / Nehemiah",
+   "start": "10/27",
+   "pour": "",
+   "overdue_count": 10,
+   "overdue_owners": {
+    "Joshua": 3,
+    "Nehemiah": 3,
+    "Tym": 4,
+    "Randall": 4
+   },
+   "overdue_top": [
+    {
+     "task": "CompanyCam project complete (photos, video, sketch, measurements)",
+     "owner": "Joshua / Nehemiah",
+     "bd_late": 5
+    },
+    {
+     "task": "Permit / HOA status identified",
+     "owner": "Joshua / Nehemiah",
+     "bd_late": 5
+    },
+    {
+     "task": "Selections confirmed (finish, color, stamp, product)",
+     "owner": "Joshua / Nehemiah",
+     "bd_late": 3
+    },
+    {
+     "task": "Office readiness review",
+     "owner": "Tym",
+     "bd_late": 2
+    },
+    {
+     "task": "Field readiness review / site visit",
+     "owner": "Randall",
+     "bd_late": 1
     }
    ],
    "tasks_open": 41,
@@ -319,12 +318,12 @@
    "job": "C-25",
    "first_name": "Terry",
    "project": "Project Paseo",
-   "stage": "Not Signed",
+   "stage": "On Hold",
    "stage_index": 0,
-   "on_hold": false,
-   "flag": "R",
-   "reason": "no signed contract on file (red until signed)",
-   "next_milestone": "Signed: Resolve amount: proposal vs J&P mismatch; approve revised proposal (due 10/23)",
+   "on_hold": true,
+   "flag": "H",
+   "reason": "On Hold in J&P (Pending HOA): tasks paused, no late-task flags",
+   "next_milestone": "Resume when J&P status leaves On Hold",
    "owner": "Nehemiah",
    "start": "",
    "pour": "",
