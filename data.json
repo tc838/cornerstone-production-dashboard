@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T12:18-07:00",
+ "generatedAt": "2026-10-30T16:37-07:00",
  "asOf": "2026-10-30",
  "stages": [
   "Not Signed",
@@ -12,7 +12,7 @@
   "Closed"
  ],
  "summary": {
-  "G": 1,
+  "G": 2,
   "Y": 0,
   "R": 4,
   "H": 2
@@ -114,7 +114,7 @@
      "bd_late": 37
     }
    ],
-   "tasks_open": 19,
+   "tasks_open": 20,
    "tasks_done": 27
   },
   {
@@ -202,6 +202,25 @@
    "overdue_top": [],
    "tasks_open": 4,
    "tasks_done": 1
+  },
+  {
+   "job": "C-30",
+   "first_name": "Jim",
+   "project": "Project Montebella",
+   "stage": "Signed",
+   "stage_index": 1,
+   "on_hold": false,
+   "flag": "G",
+   "reason": "On track: no late tasks",
+   "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/31)",
+   "owner": "Joshua",
+   "start": "",
+   "pour": "",
+   "overdue_count": 0,
+   "overdue_owners": {},
+   "overdue_top": [],
+   "tasks_open": 43,
+   "tasks_done": 4
   },
   {
    "job": "C-19",
