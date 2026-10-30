@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T08:21-07:00",
+ "generatedAt": "2026-10-30T08:22-07:00",
  "asOf": "2026-10-30",
  "stages": [
   "Not Signed",
@@ -26,11 +26,11 @@
    "stage_index": 1,
    "on_hold": false,
    "flag": "R",
-   "reason": "started 10/27 with no Production Acceptance | 22 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua / Nehemiah, 12 BD late); Permit / HOA status identified (Joshua / Nehemiah, 12 BD late) +20 more",
+   "reason": "started 10/27 with no Production Acceptance | 22 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua / Nehemiah, 12 BD late); Permit / HOA status identified (Joshua / Nehemiah, 12 BD late) +20 more | 19 open blocker(s) within 48h of 10/31: CompanyCam project complete (photos, video, sketch, measurements); Selections confirmed (finish, color, stamp, product) +17 more",
    "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/16)",
    "owner": "Joshua / Nehemiah",
    "start": "10/27",
-   "pour": "",
+   "pour": "10/31",
    "overdue_count": 22,
    "overdue_owners": {
     "Joshua": 4,
