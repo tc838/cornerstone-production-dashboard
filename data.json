@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T08:17-07:00",
+ "generatedAt": "2026-11-02T12:11-07:00",
  "asOf": "2026-11-02",
  "stages": [
   "Not Signed",
@@ -13,8 +13,8 @@
  ],
  "summary": {
   "G": 1,
-  "Y": 0,
-  "R": 3,
+  "Y": 1,
+  "R": 2,
   "H": 2
  },
  "jobs": [
@@ -124,8 +124,8 @@
    "stage": "Signed",
    "stage_index": 1,
    "on_hold": false,
-   "flag": "R",
-   "reason": "set to start 11/5 with no Production Acceptance | 2 task(s) 1 BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua); Permit / HOA status identified (Joshua)",
+   "flag": "Y",
+   "reason": "2 task(s) 1 BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua); Permit / HOA status identified (Joshua)",
    "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/31)",
    "owner": "Joshua",
    "start": "11/5",
@@ -146,8 +146,8 @@
      "bd_late": 1
     }
    ],
-   "tasks_open": 43,
-   "tasks_done": 4
+   "tasks_open": 40,
+   "tasks_done": 7
   },
   {
    "job": "C-29",
