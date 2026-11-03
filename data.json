@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T08:19-07:00",
+ "generatedAt": "2026-11-03T12:12-07:00",
  "asOf": "2026-11-03",
  "stages": [
   "Not Signed",
@@ -26,11 +26,11 @@
    "stage_index": 1,
    "on_hold": false,
    "flag": "R",
-   "reason": "started 10/23 with no Production Acceptance | 22 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua / Nehemiah, 15 BD late); Permit / HOA status identified (Joshua / Nehemiah, 15 BD late) +20 more",
+   "reason": "started 10/23 with no Production Acceptance | 22 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua / Nehemiah, 15 BD late); Permit / HOA status identified (Joshua / Nehemiah, 15 BD late) +20 more | 19 open blocker(s) within 48h of 11/3: CompanyCam project complete (photos, video, sketch, measurements); Selections confirmed (finish, color, stamp, product) +17 more",
    "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/16)",
    "owner": "Joshua / Nehemiah",
    "start": "10/23",
-   "pour": "10/31",
+   "pour": "11/3",
    "overdue_count": 22,
    "overdue_owners": {
     "Joshua": 4,
@@ -125,23 +125,18 @@
    "stage_index": 1,
    "on_hold": false,
    "flag": "R",
-   "reason": "2 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 2 BD late); Permit / HOA status identified (Joshua, 2 BD late) | 1 task(s) 1 BD late: Selections confirmed (finish, color, stamp, product) (Joshua) | 9 open blocker(s) within 48h of 11/5: CompanyCam project complete (photos, video, sketch, measurements); Selections confirmed (finish, color, stamp, product) +7 more",
+   "reason": "1 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 2 BD late) | 1 task(s) 1 BD late: Selections confirmed (finish, color, stamp, product) (Joshua) | 6 open blocker(s) within 48h of 11/5: CompanyCam project complete (photos, video, sketch, measurements); Selections confirmed (finish, color, stamp, product) +4 more",
    "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/31)",
    "owner": "Joshua",
    "start": "11/5",
    "pour": "",
-   "overdue_count": 3,
+   "overdue_count": 2,
    "overdue_owners": {
-    "Joshua": 3
+    "Joshua": 2
    },
    "overdue_top": [
     {
      "task": "CompanyCam project complete (photos, video, sketch, measurements)",
-     "owner": "Joshua",
-     "bd_late": 2
-    },
-    {
-     "task": "Permit / HOA status identified",
      "owner": "Joshua",
      "bd_late": 2
     },
@@ -151,8 +146,8 @@
      "bd_late": 1
     }
    ],
-   "tasks_open": 40,
-   "tasks_done": 7
+   "tasks_open": 37,
+   "tasks_done": 10
   },
   {
    "job": "C-29",
