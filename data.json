@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T12:12-07:00",
+ "generatedAt": "2026-11-03T16:47-07:00",
  "asOf": "2026-11-03",
  "stages": [
   "Not Signed",
@@ -125,7 +125,7 @@
    "stage_index": 1,
    "on_hold": false,
    "flag": "R",
-   "reason": "1 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 2 BD late) | 1 task(s) 1 BD late: Selections confirmed (finish, color, stamp, product) (Joshua) | 6 open blocker(s) within 48h of 11/5: CompanyCam project complete (photos, video, sketch, measurements); Selections confirmed (finish, color, stamp, product) +4 more",
+   "reason": "1 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 2 BD late) | 1 task(s) 1 BD late: Selections confirmed (finish, color, stamp, product) (Joshua) | 5 open blocker(s) within 48h of 11/5: CompanyCam project complete (photos, video, sketch, measurements); Selections confirmed (finish, color, stamp, product) +3 more",
    "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/31)",
    "owner": "Joshua",
    "start": "11/5",
@@ -146,8 +146,8 @@
      "bd_late": 1
     }
    ],
-   "tasks_open": 37,
-   "tasks_done": 10
+   "tasks_open": 36,
+   "tasks_done": 11
   },
   {
    "job": "C-29",
