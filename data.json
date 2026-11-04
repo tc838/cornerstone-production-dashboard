@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T08:23-07:00",
+ "generatedAt": "2026-11-04T16:42-07:00",
  "asOf": "2026-11-04",
  "stages": [
   "Not Signed",
@@ -156,7 +156,7 @@
      "bd_late": 2
     }
    ],
-   "tasks_open": 4,
+   "tasks_open": 5,
    "tasks_done": 1
   },
   {
@@ -199,7 +199,7 @@
    "stage_index": 1,
    "on_hold": true,
    "flag": "H",
-   "reason": "On Hold in J&P: tasks paused, no late-task flags",
+   "reason": "On Hold in J&P (Approved): tasks paused, no late-task flags",
    "next_milestone": "Resume when J&P status leaves On Hold",
    "owner": "Nehemiah",
    "start": "",
