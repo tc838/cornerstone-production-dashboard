@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T08:22-07:00",
+ "generatedAt": "2026-11-05T16:47-07:00",
  "asOf": "2026-11-05",
  "stages": [
   "Not Signed",
@@ -12,7 +12,7 @@
   "Closed"
  ],
  "summary": {
-  "G": 0,
+  "G": 2,
   "Y": 0,
   "R": 4,
   "H": 2
@@ -196,6 +196,44 @@
    ],
    "tasks_open": 36,
    "tasks_done": 11
+  },
+  {
+   "job": "C-31",
+   "first_name": "Bill",
+   "project": "Project Gold Dust",
+   "stage": "Signed",
+   "stage_index": 1,
+   "on_hold": false,
+   "flag": "G",
+   "reason": "On track: no late tasks",
+   "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements)",
+   "owner": "Joshua",
+   "start": "",
+   "pour": "",
+   "overdue_count": 0,
+   "overdue_owners": {},
+   "overdue_top": [],
+   "tasks_open": 8,
+   "tasks_done": 3
+  },
+  {
+   "job": "C-32",
+   "first_name": "Alan",
+   "project": "Project Cochran",
+   "stage": "Signed",
+   "stage_index": 1,
+   "on_hold": false,
+   "flag": "G",
+   "reason": "On track: no late tasks",
+   "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 11/6)",
+   "owner": "Tym",
+   "start": "",
+   "pour": "",
+   "overdue_count": 0,
+   "overdue_owners": {},
+   "overdue_top": [],
+   "tasks_open": 47,
+   "tasks_done": 0
   },
   {
    "job": "C-19",
