@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T08:33-07:00",
+ "generatedAt": "2026-11-06T16:47-07:00",
  "asOf": "2026-11-06",
  "stages": [
   "Not Signed",
@@ -167,14 +167,14 @@
    "stage_index": 1,
    "on_hold": false,
    "flag": "R",
-   "reason": "3 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 5 BD late); Selections confirmed (finish, color, stamp, product) (Joshua, 4 BD late) +1 more",
+   "reason": "2 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 5 BD late); PM introduction to [name] (Tym, 2 BD late)",
    "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/31)",
    "owner": "Joshua",
    "start": "11/5",
    "pour": "",
-   "overdue_count": 3,
+   "overdue_count": 2,
    "overdue_owners": {
-    "Joshua": 2,
+    "Joshua": 1,
     "Tym": 1
    },
    "overdue_top": [
@@ -184,18 +184,13 @@
      "bd_late": 5
     },
     {
-     "task": "Selections confirmed (finish, color, stamp, product)",
-     "owner": "Joshua",
-     "bd_late": 4
-    },
-    {
      "task": "PM introduction to [name]",
      "owner": "Tym",
      "bd_late": 2
     }
    ],
-   "tasks_open": 36,
-   "tasks_done": 11
+   "tasks_open": 35,
+   "tasks_done": 12
   },
   {
    "job": "C-31",
