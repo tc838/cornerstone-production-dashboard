@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T08:18-07:00",
+ "generatedAt": "2026-11-11T16:46-07:00",
  "asOf": "2026-11-11",
  "stages": [
   "Not Signed",
@@ -275,7 +275,7 @@
    "overdue_count": 0,
    "overdue_owners": {},
    "overdue_top": [],
-   "tasks_open": 20,
+   "tasks_open": 21,
    "tasks_done": 24
   },
   {
