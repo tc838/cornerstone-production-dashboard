@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-19T16:49-07:00",
- "asOf": "2026-11-19",
+ "generatedAt": "2026-11-20T08:51-07:00",
+ "asOf": "2026-11-20",
  "stages": [
   "Not Signed",
   "Signed",
@@ -12,62 +12,12 @@
   "Closed"
  ],
  "summary": {
-  "G": 1,
+  "G": 2,
   "Y": 0,
-  "R": 5,
+  "R": 4,
   "H": 2
  },
  "jobs": [
-  {
-   "job": "C-28",
-   "first_name": "Lisa",
-   "project": "Project 206",
-   "stage": "Signed",
-   "stage_index": 1,
-   "on_hold": false,
-   "flag": "R",
-   "reason": "started 10/23 with no Production Acceptance | 22 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua / Nehemiah, 29 BD late); Permit / HOA status identified (Joshua / Nehemiah, 29 BD late) +20 more",
-   "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/16)",
-   "owner": "Joshua / Nehemiah",
-   "start": "10/23",
-   "pour": "11/3",
-   "overdue_count": 22,
-   "overdue_owners": {
-    "Joshua": 4,
-    "Nehemiah": 3,
-    "Tym": 13,
-    "Randall": 9
-   },
-   "overdue_top": [
-    {
-     "task": "CompanyCam project complete (photos, video, sketch, measurements)",
-     "owner": "Joshua / Nehemiah",
-     "bd_late": 29
-    },
-    {
-     "task": "Permit / HOA status identified",
-     "owner": "Joshua / Nehemiah",
-     "bd_late": 29
-    },
-    {
-     "task": "Selections confirmed (finish, color, stamp, product)",
-     "owner": "Joshua / Nehemiah",
-     "bd_late": 27
-    },
-    {
-     "task": "Office readiness review",
-     "owner": "Tym",
-     "bd_late": 26
-    },
-    {
-     "task": "Field readiness review / site visit",
-     "owner": "Randall",
-     "bd_late": 25
-    }
-   ],
-   "tasks_open": 38,
-   "tasks_done": 8
-  },
   {
    "job": "C-20",
    "first_name": "Barbara",
@@ -76,7 +26,7 @@
    "stage_index": 1,
    "on_hold": false,
    "flag": "R",
-   "reason": "8 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 57 BD late); Selections confirmed (finish, color, stamp, product) (Joshua, 56 BD late) +6 more",
+   "reason": "8 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 58 BD late); Selections confirmed (finish, color, stamp, product) (Joshua, 57 BD late) +6 more",
    "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 9/14)",
    "owner": "Joshua",
    "start": "",
@@ -91,27 +41,27 @@
     {
      "task": "CompanyCam project complete (photos, video, sketch, measurements)",
      "owner": "Joshua",
-     "bd_late": 57
+     "bd_late": 58
     },
     {
      "task": "Selections confirmed (finish, color, stamp, product)",
      "owner": "Joshua",
-     "bd_late": 56
+     "bd_late": 57
     },
     {
      "task": "Office readiness review",
      "owner": "Tym",
-     "bd_late": 55
+     "bd_late": 56
     },
     {
      "task": "Field readiness review / site visit",
      "owner": "Randall",
-     "bd_late": 54
+     "bd_late": 55
     },
     {
      "task": "Production Accepted decision (Tym + Randall)",
      "owner": "Tym + Randall",
-     "bd_late": 54
+     "bd_late": 55
     }
    ],
    "tasks_open": 18,
@@ -125,7 +75,7 @@
    "stage_index": 1,
    "on_hold": false,
    "flag": "R",
-   "reason": "7 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Tym, 11 BD late); Permit / HOA status identified (Tym, 11 BD late) +5 more",
+   "reason": "7 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Tym, 12 BD late); Permit / HOA status identified (Tym, 12 BD late) +5 more",
    "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 11/6)",
    "owner": "Tym",
    "start": "",
@@ -139,27 +89,27 @@
     {
      "task": "CompanyCam project complete (photos, video, sketch, measurements)",
      "owner": "Tym",
-     "bd_late": 11
+     "bd_late": 12
     },
     {
      "task": "Permit / HOA status identified",
      "owner": "Tym",
-     "bd_late": 11
+     "bd_late": 12
     },
     {
      "task": "Selections confirmed (finish, color, stamp, product)",
      "owner": "Tym",
-     "bd_late": 10
+     "bd_late": 11
     },
     {
      "task": "Office readiness review",
      "owner": "Tym",
-     "bd_late": 9
+     "bd_late": 10
     },
     {
      "task": "Field readiness review / site visit",
      "owner": "Randall",
-     "bd_late": 9
+     "bd_late": 10
     }
    ],
    "tasks_open": 45,
@@ -173,7 +123,7 @@
    "stage_index": 1,
    "on_hold": false,
    "flag": "R",
-   "reason": "4 task(s) 2+ BD late: Obtain original building plans + existing retaining walls (as-builts) (Tym, 15 BD late); Obtain site survey (Tym, 15 BD late) +2 more",
+   "reason": "4 task(s) 2+ BD late: Obtain original building plans + existing retaining walls (as-builts) (Tym, 16 BD late); Obtain site survey (Tym, 16 BD late) +2 more",
    "next_milestone": "Handoff Released",
    "owner": "",
    "start": "",
@@ -186,22 +136,22 @@
     {
      "task": "Obtain original building plans + existing retaining walls (as-builts)",
      "owner": "Tym",
-     "bd_late": 15
+     "bd_late": 16
     },
     {
      "task": "Obtain site survey",
      "owner": "Tym",
-     "bd_late": 15
+     "bd_late": 16
     },
     {
      "task": "Obtain soil report (geotech)",
      "owner": "Tym",
-     "bd_late": 15
+     "bd_late": 16
     },
     {
      "task": "Record HOA / Fountain Hills hillside permit + tower access easement status",
      "owner": "Tym",
-     "bd_late": 15
+     "bd_late": 16
     }
    ],
    "tasks_open": 5,
@@ -215,7 +165,7 @@
    "stage_index": 1,
    "on_hold": false,
    "flag": "R",
-   "reason": "2 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 16 BD late); PM introduction to [name] (Tym, 13 BD late)",
+   "reason": "2 task(s) 2+ BD late: CompanyCam project complete (photos, video, sketch, measurements) (Joshua, 17 BD late); PM introduction to [name] (Tym, 14 BD late)",
    "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 10/31)",
    "owner": "Joshua",
    "start": "11/5",
@@ -229,12 +179,12 @@
     {
      "task": "CompanyCam project complete (photos, video, sketch, measurements)",
      "owner": "Joshua",
-     "bd_late": 16
+     "bd_late": 17
     },
     {
      "task": "PM introduction to [name]",
      "owner": "Tym",
-     "bd_late": 13
+     "bd_late": 14
     }
    ],
    "tasks_open": 35,
@@ -258,6 +208,25 @@
    "overdue_top": [],
    "tasks_open": 8,
    "tasks_done": 3
+  },
+  {
+   "job": "C-33",
+   "first_name": "Millie",
+   "project": "Project Grape",
+   "stage": "Signed",
+   "stage_index": 1,
+   "on_hold": false,
+   "flag": "G",
+   "reason": "On track: no late tasks",
+   "next_milestone": "Handoff Released: CompanyCam project complete (photos, video, sketch, measurements) (due 11/20)",
+   "owner": "Joshua",
+   "start": "",
+   "pour": "",
+   "overdue_count": 0,
+   "overdue_owners": {},
+   "overdue_top": [],
+   "tasks_open": 46,
+   "tasks_done": 0
   },
   {
    "job": "C-19",
